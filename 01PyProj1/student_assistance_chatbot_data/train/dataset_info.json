@@ -1,0 +1,50 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "student-assistance-chatbot",
+  "dataset_size": 79541,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/bot-remains/student-assistance-chatbot@5414442df3c381b929d9368e4a7e0c8b249d692f/data-set.json": {
+      "num_bytes": 96046,
+      "checksum": null
+    }
+  },
+  "download_size": 96046,
+  "features": {
+    "category": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "instruction": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "input": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "output": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 175587,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 79541,
+      "num_examples": 217,
+      "dataset_name": "student-assistance-chatbot"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
